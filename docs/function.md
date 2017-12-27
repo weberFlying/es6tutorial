@@ -68,6 +68,7 @@ function foo(x = 5) {
 
 ```javascript
 // 不报错
+// chrome下测试，这里也会报错Uncaught SyntaxError: Duplicate parameter name not allowed in this context
 function foo(x, x, y) {
   // ...
 }
